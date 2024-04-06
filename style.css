@@ -28,7 +28,13 @@ body {
     background-color: white;
     align-items: center;    
     text-align: center;
+    position: relative;
+    transition: box-shadow 0.3s ease;
 }
+.card:hover {
+    box-shadow:  10px 10px 0 rgba(0, 0, 0, 10);
+}
+
 
 .card img {
     border-radius: 10px;
